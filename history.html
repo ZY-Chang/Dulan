@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>都蘭國</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- css區塊 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            #introduction{
+                background-color: white;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+			#video {
+				overflow: hidden;
+				padding-top: 56.25%;
+				position: relative;
+			}
+			#video iframe {
+				border: 0;
+				height: 95%;
+				left: 0;
+				position: absolute;
+				top: 1rem;
+				width: 100%;
+			}
+			/* 4x3 縱橫比 */
+			#video-4x3 {
+				padding-top: 75%;
+			}
+        </style>
+    </head>
+    <body style="background-color:gainsboro">
+        <!-- nav導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <!-- 左上角Logo -->
+                <a class="navbar-brand" href="homepage.html">
+                    <img src="images/titlelogo.png" width="200px">
+                </a>
+                <!-- 漢堡 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- 導覽列內容 -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown1" data-toggle="dropdown" role="button">介紹</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <li><a class="dropdown-item" href="history.html">都蘭國的成立</a></li>
+                                <li><a class="dropdown-item" href="culture.html">當地文化</a></li>
+                                <li><a class="dropdown-item" href="transportation.html">交通方式</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="attractions.html">遊程與景點</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown2" data-toggle="dropdown" role="button">資訊</a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown2">
+                                <li><a class="dropdown-item" href="https://www.facebook.com/atolan.malakapahay/">Facebook <span class="icon-external-link"></span></a></li>
+                                <li><a class="dropdown-item" href="https://www.instagram.com/atolan_style/">Instagram <span class="icon-external-link"></span></a></li>
+                                <li><a class="dropdown-item" href="https://atolanstyle.cashier.ecpay.com.tw/">文創產品購買 <span class="icon-external-link"></span></a></li>
+								<li><a class="dropdown-item" href="https://tour.taitung.gov.tw/zh-tw/attraction/details/1267">台東觀光旅遊網 <span class="icon-external-link"></span></a></li>
+                                <li><a class="dropdown-item" href="https://www.eastcoast-nsa.gov.tw/zh-tw/attractions/detail/34">東部海岸國家風景區觀光資訊網 <span class="icon-external-link"></span></a></li>
+                            </ul>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link disabled" href="attractions.html" style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</a>
+                        </li>						
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- 影片+簡介 -->
+        <div class="container">
+            <div class="row" style="padding-top: 126px;">
+                <div class="col-md-8 col-sm-12" id="video">
+                    <iframe  src="https://www.youtube.com/embed/8ZSB7TFGYg0" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4 col-sm-12" id="introduction" style="text-align:center">
+                    <br>「都蘭國」不是一個國家，<br>而是原住民部落的行銷哏。<br>
+                    它沒有領土與政府，<br>沒有國旗和國歌，<br>但它有負責聯絡與交通的外交部，<br>有傳承部落技藝與文化的文化部，<br>有帶領遊客認識都蘭的觀光部，<br>還有生產都蘭特產的經濟部。<br>
+                    有的是一群致力於部落事務的熱情居民，<br>有的是編織、串珠、釀酒等傳統手工職人，<br>有的是帶你了解先民智慧的後山走起行程。<br>
+                    走吧，<br>來一趟都蘭，<br>帶你走進不一樣的山海邊境慢遊之旅。<br>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 ml-auto">
+                            <h2 class="footer-heading mb-4 ">Menu</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="homepage.html">首頁</a></li>
+                                <li><a href="history.html">都蘭國的成立</a></li>
+                                <li><a href="culture.html">當地文化</a></li>
+                                <li><a href="transportation.html">交通方式</a></li>
+                                <li><a href="attractions.html">遊程與景點</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 ml-auto">
+                            <h2 class="footer-heading mb-4 ">Link</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="https://atolanstyle.cashier.ecpay.com.tw/">文創商品購買 <span class="icon-external-link"></span></a></li>
+                                <li><a href="https://www.facebook.com/atolan.malakapahay/">Facebook <span class="icon-external-link"></span></a></li>
+                                <li><a href="https://www.instagram.com/atolan_style/">Instagram <span class="icon-external-link"></span></a></li>
+                                <li><a href="https://tour.taitung.gov.tw/zh-tw/attraction/details/1267">台東觀光旅遊網 <span class="icon-external-link"></span></a></li>
+                                <li><a href="https://www.eastcoast-nsa.gov.tw/zh-tw/attractions/detail/34">東部海岸國家風景區觀光資訊網 <span class="icon-external-link"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 ml-auto">
+                            <h2 class="footer-heading mb-4 ">Contact Us</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="mailto:10812170@gm.nttu.edu.tw">曾懷禾 <span class="icon-mail_outline"></li>
+                                <li><a href="mailto:10812171@gm.nttu.edu.tw">章子妤 <span class="icon-mail_outline"></li>
+                                <li><a href="mailto:10812180@gm.nttu.edu.tw">張雯婷 <span class="icon-mail_outline"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- js區塊 -->
+    <script src="js/main.js"></script>
+</html>

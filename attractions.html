@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>都蘭國</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- css區塊 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="fonts/icomoon/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            .card{
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body style="background-color:gainsboro">
+        <!-- nav導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <!-- 左上角Logo -->
+                <a class="navbar-brand" href="homepage.html">
+                    <img src="images/titlelogo.png" width="200px">
+                </a>
+                <!-- 漢堡 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- 導覽列內容 -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown1" data-toggle="dropdown" role="button">介紹</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <li><a class="dropdown-item" href="history.html">都蘭國的成立</a></li>
+                                <li><a class="dropdown-item" href="culture.html">當地文化</a></li>
+                                <li><a class="dropdown-item" href="transportation.html">交通方式</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="attractions.html">遊程與景點</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown2" data-toggle="dropdown" role="button">資訊</a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown2">
+                                <li><a class="dropdown-item" href="https://www.facebook.com/atolan.malakapahay/">Facebook <span class="icon-external-link"></span></a></li>
+                                <li><a class="dropdown-item" href="https://www.instagram.com/atolan_style/">Instagram <span class="icon-external-link"></span></a></li>
+                                <li><a class="dropdown-item" href="https://atolanstyle.cashier.ecpay.com.tw/">文創產品購買 <span class="icon-external-link"></span></a></li>
+								<li><a class="dropdown-item" href="https://tour.taitung.gov.tw/zh-tw/attraction/details/1267">台東觀光旅遊網 <span class="icon-external-link"></span></a></li>
+                                <li><a class="dropdown-item" href="https://www.eastcoast-nsa.gov.tw/zh-tw/attractions/detail/34">東部海岸國家風景區觀光資訊網 <span class="icon-external-link"></span></a></li>
+                            </ul>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link disabled" href="attractions.html" style="color:white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</a>
+                        </li>						
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav-tabs分類景點、美食、職人的店、遊程 -->
+        <div class="container" style="margin-top: 136px;">
+            <ul class="nav nav-tabs nav-justified fixed-bottom bg-white" >
+                <li class="nav-item">
+                    <a href="#block1" data-toggle="tab" class="nav-link active">景點</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#block2" data-toggle="tab" class="nav-link">美食</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#block3" data-toggle="tab" class="nav-link">職人的店</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#block4" data-toggle="tab" class="nav-link">遊程</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <!-- 分類1 景點 -->
+                <div class="containter tab-pane active" id="block1">
+                    <div class="row" style="justify-content: space-around;">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">月光小棧</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr1.jpg" style="max-width: 100%;"></p>
+                                    &emsp;月光小棧位於都蘭山麓，一樓由在地藝文團隊「女妖在說畫」藝廊經營作為藝術家展演空間，
+                                    二樓則保留2003年林正盛導演拍攝之「月光下，我記得」的電影場景。<br>
+                                    &emsp;主體建築另一側則有「月光咖啡屋」，裝潢皆使用漂流木等素材組合而成，十分具有特色。除了販售咖啡、
+                                    飲品與手工茶點外，也展售許多在地創作者的手創商品與特色異國商品。<br>
+                                    <a href="https://tour.taitung.gov.tw/zh-tw/attraction/details/332" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">都蘭遺址</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr2.jpg" style="max-width: 100%;"></p>
+                                    &emsp;都蘭遺址位於東河鄉都蘭村西北方約1公里的平緩海階地，是東海岸巨石文化的代表性遺址，距今約3000年前，
+                                    根據考古學家的推測，都蘭遺址屬於麒麟文化，目前僅殘留由三塊豎立在地面上的石壁組成的石列與岩棺，
+                                    民國77年己被臺東縣政府指定為三級古蹟。<br>
+                                    <a href="https://tour.taitung.gov.tw/zh-tw/attraction/details/325" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">都蘭新東糖廠</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr3.jpg" style="max-width: 100%;"></p>
+                                    &emsp;新東糖廠建於日本殖民統治臺灣期間，第二次世界大戰末期曾經遭到盟軍砲彈轟炸，雖然已經廢棄多年，
+                                    但仍保留結構完整的木造房舍、辦公室、升旗台和工廠，於民國80年結束營業生產後，
+                                    在臺東縣政府輔導下積極轉型為「都蘭紅糖文化園區」，將閒置空間轉化為藝術家合力經營的藝術文化園區。<br>
+                                    <a href="https://tour.taitung.gov.tw/zh-tw/attraction/details/331" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 分類2 美食 -->
+                <div class="containter tab-pane fade" id="block2">
+                    <div class="row" style="justify-content: space-around;">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">32鄰咖啡</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr4.jpg" style="max-width: 100%;"></p>
+                                    &emsp;東河都蘭國小旁，有間阿美族傳統的茅草家屋，是阿美青年布告．阿里，在部落長輩的協助下搭起的咖啡館。
+                                    他以「食在地」、「遊在地」為主要概念來發展，希望透過32鄰咖啡，不僅讓外來的旅客認識部落文化，
+                                    也讓部落的長輩看見青年回鄉的希望。<br>
+                                    <a href="https://tour.taitung.gov.tw/zh-tw/shop/detail/5367" target="_blank" style="color: gray;">Learn More...</a><br>
+                                    <a href="https://lavieshyuk721.pixnet.net/blog/post/330273452-%E3%80%90%E5%8F%B0%E6%9D%B1taitung%EF%BC%8D32%E9%84%B0specialty-caffee%E3%80%91%E7%A6%BE%E4%B9%83%E6%B0%8F%EF%BC%8D%E6%93%81" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">海人上菜</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr5.jpg" style="max-width: 100%;"></p>
+                                    &emsp;都蘭海岸公路旁不可不知道的隱藏版特色料理，每道料理材料都是出自店家親自下海freedive、
+                                    上山捕撈的漁獲、野味。其中餐點很特別，除了現做以外每個季節的餐點也不太相同，每次到訪都有意外的驚喜。<br>
+                                    <a href="https://www.eastcoast-nsa.gov.tw/zh-tw/consume/detail/3584" target="_blank" style="color: gray;">Learn More...</a><br>
+                                    <a href="https://kuokuo.tw/taitung-dulaner-restaurant/" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">台澢號</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr6.jpg" style="max-width: 100%;"></p>
+                                    &emsp;來到都蘭不能錯過的特色冰品！店內招牌海浪冰是以藍柑橘為基底、浪花部份則是海鹽奶油，底部藏著海草及椰果，
+                                    吃起來鹹鹹甜甜。另外還有使用了台東鹿野有機紅烏龍與東河茶梅的山茶冰，一口下去，茶葉濃郁的香氣配上微甜的珍珠跟煉乳，
+                                    這就是台東獨有的味道吧。<br>
+                                    <a href="https://wenkaiin.com/blog/post/%E5%8F%B0%E6%9D%B1%E5%BF%85%E5%90%83%EF%BC%9A%E5%8F%B0%E6%BE%A2%E8%99%9Ftaitung-tea-house%EF%BC%8C%E9%83%BD%E8%98%AD%E7%B3%96%E5%BB%A0%E6%97%81%E7%9A%84%E7%89%B9%E8%89%B2%E5%86%B0%E5%BA%97%EF%BC%81" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 分類3 職人的店 -->
+                <div class="containter tab-pane fade" id="block3">
+                    <div class="row" style="justify-content: space-around;">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">巴奈達力工坊</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr7.jpg" style="max-width: 100%;"></p>
+                                    &emsp;樹皮布文化曾是一度失傳的原住民傳統技藝，工作室的主人沈太木（Panay），曾是都蘭部落頭目，
+                                    在擔任頭目期間，常常想著要為部落和後輩做些有意義的事情，於是開始研究在部落已經消失的樹皮衣製作。
+                                    巴奈達力功工作室的成立，就是要推廣這項阿美族的傳統技藝，使得這項技藝可以讓更多人了解並能代代傳承下去。<br>
+                                    <a href="https://ihc.cip.gov.tw/EJournal/EJournalCat/175" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">蘭調織女</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr8.jpg" style="max-width: 100%;"></p>
+                                    &emsp;「蘭調織女」為都蘭部落ina所組成的獨立品牌，熱愛染、鉤、織的織女們，透過在地藝術家持續地陪伴，
+                                    聚集於此共享知識，我們的婦女藉由自身能力及技術，做出代表部落、阿美族文化的在地化產品，
+                                    期望外界進一步認識都蘭的內涵。<br>
+                                    <a href="https://www.siaolin.com/%E8%98%AD%E8%AA%BF%E7%B9%94%E5%A5%B3.html" target="_blank" style="color: gray;">Learn More...</a><br>
+                                    <a href="https://www.teclandart.tw/zh/openstudio/%E8%98%AD%E8%AA%BF%E7%B9%94%E5%A5%B3/" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">出力釀</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr9.png" style="max-width: 100%;"></p>
+                                    &emsp;在原住民文化中，酒是部落族人與祖靈溝通的神聖媒介，各族群都擁有自己獨特的釀酒文化。但隨著時代演進，
+                                    老一輩族人逐漸凋零，珍貴技藝眼看就要失傳。因此，出力釀創辦人阿銓和出身阿美族釀酒家族的太太莎莎決定回鄉學習釀酒，
+                                    耗費數年，終於成為台東第一家取得製酒許可證的傳統製酒廠。<br>
+                                    <a href="https://www.foodnext.net/issue/paper/5357697590" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 分類4 遊程 -->
+                <div class="containter tab-pane fade" id="block4">
+                    <div class="row" style="justify-content: space-around;">
+                        <div class="col-md-5 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">都蘭國入境導覽</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr10.jpeg" style="max-width: 100%;"></p>
+                                    &emsp;讓當地居民帶你認識都蘭國！<br>
+                                    <a href="https://www.atolan-style.com/%E9%98%BF%E8%98%AD%E7%9A%84tisaki" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <div class="card" style="height:40rem;">
+                                <div class="card-header bg-light">後山走起-阿度蘭農場遊程</div>
+                                <div class="card-body">
+                                    <p><img src="images/attr11.jpg" style="max-width: 100%;"></p>
+                                    &emsp;最具都蘭在地特色的套裝遊程、DIY手作、認識野菜、傳統美食體驗，讓你透徹地感知這裡真正的文化內涵，體驗最獨特的蘭調魅力。<br>
+                                    <a href="https://atolanstyle.webnode.tw/%E5%9C%B0%E6%96%B9%E9%AB%94%E9%A9%97%EF%BC%9A%E5%BE%8C%E5%B1%B1%E8%B5%B0%E8%B5%B7/" target="_blank" style="color: gray;">Learn More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </body>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 ml-auto">
+                            <h2 class="footer-heading mb-4 ">Menu</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="homepage.html">首頁</a></li>
+                                <li><a href="history.html">都蘭國的成立</a></li>
+                                <li><a href="culture.html">當地文化</a></li>
+                                <li><a href="transportation.html">交通方式</a></li>
+                                <li><a href="attractions.html">遊程與景點</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 ml-auto">
+                            <h2 class="footer-heading mb-4 ">Link</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="https://atolanstyle.cashier.ecpay.com.tw/">文創商品購買 <span class="icon-external-link"></span></a></li>
+                                <li><a href="https://www.facebook.com/atolan.malakapahay/">Facebook <span class="icon-external-link"></span></a></li>
+                                <li><a href="https://www.instagram.com/atolan_style/">Instagram <span class="icon-external-link"></span></a></li>
+                                <li><a href="https://tour.taitung.gov.tw/zh-tw/attraction/details/1267">台東觀光旅遊網 <span class="icon-external-link"></span></a></li>
+                                <li><a href="https://www.eastcoast-nsa.gov.tw/zh-tw/attractions/detail/34">東部海岸國家風景區觀光資訊網 <span class="icon-external-link"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 ml-auto">
+                            <h2 class="footer-heading mb-4 ">Contact Us</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="mailto:10812170@gm.nttu.edu.tw">曾懷禾 <span class="icon-mail_outline"></li>
+                                <li><a href="mailto:10812171@gm.nttu.edu.tw">章子妤 <span class="icon-mail_outline"></li>
+                                <li><a href="mailto:10812180@gm.nttu.edu.tw">張雯婷 <span class="icon-mail_outline"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- js區塊 -->
+    <script src="js/main.js"></script>
+</html>
